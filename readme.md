@@ -24,7 +24,7 @@ zip -P daddycoming -r d.zip iamsohandsome.py
 然后我们使用以下代码把明文密码`daddycoming`加密:
 ```python
 from zipimport2 import encrypt
-print(encrypt(nosecret="daddycoming"))
+print(encrypt("daddycoming"))
 ```
 得到以下输出:
 ```shell
