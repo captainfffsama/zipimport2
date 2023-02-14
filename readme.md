@@ -1,3 +1,4 @@
+**注意: 使用 `inspect.getsource` 之类方法可以直接破解,本项目只是练手**
 # 说明
 参考了 python 标准库中 zipimport 源码,现在 zipimport2 支持加密 zip 包导入,并支持对 zip 包密码进行加密
 
